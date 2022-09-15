@@ -27,6 +27,18 @@ MQTT adapter for Hisense AC
 
 При подключении к MQTT-брокеру модуль публикует 2 топика:
 1. devices/{Имя_модуля}/status. Здесь раз в 5 сек. в формате выводятся данные о состоянии кондиционера:
+   `{
+    "wind_status": 0,
+    "sleep_status": 0,
+    "mode_status": 2,
+    "run_status": 0,
+    "direction_status": 0,
+    "indoor_temperature_setting": 24,
+    "indoor_temperature_status": 23,
+    "up_down": 0,
+    "left_right": 0,
+    "outdoor_temperature": 13
+    }`
    
 
 
