@@ -3,6 +3,8 @@ MQTT adapter for Hisense AC
 
 Адаптер для упарвления кондиционерами Hisense Smart DC Inverter.
 
+![Внешний вид](https://github.com/Vittaly76/Hisense-to-MQTT/blob/main/20220911_120043.jpg)
+
 **Содержание репозитория**
 1. Папка с проектом IDE Arduino. Можно скомпилировать самостоятельно. Фактически нужны только два файла: HisenseAdapter.ino и 102_00_status.h (должен также лежать в папке проекта)
 2. Папка со схемой. В формате PDF и JSON для импорта в EasyEDA.
