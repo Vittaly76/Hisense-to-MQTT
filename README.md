@@ -9,3 +9,8 @@ MQTT adapter for Hisense AC
 - [IotWebConf](https://github.com/prampec/IotWebConf)
 - [GParser](https://github.com/GyverLibs/GParser)
 - [TimerMs](https://github.com/GyverLibs/TimerMs)
+
+**Важно:**
+Библиотека IotWebConf по умолчанию находится в Debag-mode, и поэтому сыпет логами в Serial, что неприемлемо, так как Serial используется для взаимодействия с кондиционером. Возможность отключения Debug предусмотрена только при работе с VSCode. Если же используется IDE Arduino, то Debag можно отключить, добавив в файл Ваше_расположение\Arduino\libraries\IotWebConf\src\IotWebConfSettings.h в самом начале строчку:
+
+`#define IOTWEBCONF_DEBUG_DISABLED`
