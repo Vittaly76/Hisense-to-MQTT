@@ -40,8 +40,16 @@ MQTT adapter for Hisense AC
     "outdoor_temperature": 13
     }`
     
-    wind_status: скорость вентилятора. 1 - auto, 10 - lowest, 12 - low, 14 - middle, 16 - high, 18 - highest.
-    sleep_status: статус таймера. 0 - выкл, 1 - вкл
+    - wind_status: скорость вентилятора. 1 - auto, 10 - lowest, 12 - low, 14 - middle, 16 - high, 18 - highest.
+    - sleep_status: статус таймера. 0 - выкл, 1 - вкл
+    - mode_status: режим работы. 0 - fan, 1 - heat, 2 - cool, 3 - dry, 4 - auto
+    - run_status: вкл/выкл. 0 - выкл, 2 - вкл
+    - direction_status: ?
+    - indoor_temperature_setting: выставленная (желаемая) температура в помещении
+    - indoor_temperature_status: текущая ткмпература в помещении
+    - up_down: качание шторки вверх/вниз. 0 - выкл, 1 - вкл.
+    - left_right: качание шторки влево/вправо. 0 - выкл, 1 - вкл.
+    - outdoor_temperature: температура на улице
 2. 
    
 
